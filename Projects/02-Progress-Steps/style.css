@@ -46,7 +46,25 @@ body {
 }
 
 .progress {
-  background-color: var(--line-border-fill);
+  background-image: repeating-linear-gradient(
+    135deg,
+    hsl(64, 83%, 66%) 0px,
+    hsl(64, 83%, 66%) 6px,
+    hsl(109, 83%, 66%) 6px,
+    hsl(109, 83%, 66%) 12px,
+    hsl(154, 83%, 66%) 12px,
+    hsl(154, 83%, 66%) 18px,
+    hsl(199, 83%, 66%) 18px,
+    hsl(199, 83%, 66%) 24px,
+    hsl(244, 83%, 66%) 24px,
+    hsl(244, 83%, 66%) 30px,
+    hsl(289, 83%, 66%) 30px,
+    hsl(289, 83%, 66%) 36px,
+    hsl(334, 83%, 66%) 36px,
+    hsl(334, 83%, 66%) 42px,
+    hsl(19, 83%, 66%) 42px,
+    hsl(19, 83%, 66%) 48px
+  );
   position: absolute;
   top: 50%;
   left: 0;
@@ -66,11 +84,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 3px solid var(--line-border-empty);
+  border: 2px solid var(--line-border-empty);
   transition: 0.4s ease;
 }
 
 .circle.active {
+  border: 3px solid;
   border-color: var(--line-border-fill);
 }
 

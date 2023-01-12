@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(90deg, #7d5fff, #7158e2);
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.search {
+  position: relative;
+  height: 50px;
+}
+
+.search .input {
+  background-color: #fff;
+  border: 0;
+  border-radius: 50px;
+  font-size: 18px;
+  padding: 15px;
+  height: 50px;
+  width: 50px;
+  transition: width 0.3s ease;
+}
+
+input,
+textarea {
+  color: #353535;
+  letter-spacing: 0.02rem;
+}
+
+button {
+  border-radius: 50px;
+  color: #353535;
+}
+
+.btn {
+  background-color: #fff;
+  border: 0px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  transition: transform 0.3s ease;
+}
+
+.btn:focus,
+.input:focus {
+  outline: none;
+}
+
+.search.active .input {
+  width: 200px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.search.active .btn {
+  transform: translateX(198px);
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
