@@ -13,10 +13,10 @@ It was implemented by following a tutorial, and used for learning purposes.
 | 05  | [Blurry Loading](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/05-Blurry-Loading)                     | Coming Soon |
 | 06  | [Scroll Animation](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/06-Scroll-Animation)                 | Coming Soon |
 | 07  | [Split Landing Page](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/07-Split-Landing-Page)             | Coming Soon |
-| 08  |                                                                                                                                   |             |
-| 09  |                                                                                                                                   |             |
-| 10  |                                                                                                                                   |             |
-| 11  |                                                                                                                                   |             |
+| 08  | [Form Wave Animation](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/08-Form-Wave-Animation)           | Coming Soon |
+| 09  | -------                                                                                                                           | Coming Soon |
+| 10  | [Dad Jokes](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/10-Dad-Jokes)                               | Coming Soon |
+| 11  | [Event KeyCodes](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/11-Event-KeyCodes)                     | Coming Soon |
 | 12  |                                                                                                                                   |             |
 | 13  |                                                                                                                                   |             |
 | 15  |                                                                                                                                   |             |
