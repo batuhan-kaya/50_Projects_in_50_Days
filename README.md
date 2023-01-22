@@ -14,11 +14,12 @@ It was implemented by following a tutorial, and used for learning purposes.
 | 06  | [Scroll Animation](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/06-Scroll-Animation)                 | Coming Soon |
 | 07  | [Split Landing Page](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/07-Split-Landing-Page)             | Coming Soon |
 | 08  | [Form Wave Animation](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/08-Form-Wave-Animation)           | Coming Soon |
-| 09  | -------                                                                                                                           | Coming Soon |
+| 09  | --------------                                                                                                                    | Coming Soon |
 | 10  | [Dad Jokes](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/10-Dad-Jokes)                               | Coming Soon |
 | 11  | [Event KeyCodes](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/11-Event-KeyCodes)                     | Coming Soon |
-| 12  |                                                                                                                                   |             |
-| 13  |                                                                                                                                   |             |
+| 12  | [Faq-Collapse](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/12-Faq-Collapse)                         | Coming Soon |
+| 13  | [Random Choice Picker](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/13-Random-Choice-Picker)         | Coming Soon |
+| 14  | [Animated Navigation](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/14-Animated-Navigation)           | Coming Soon |
 | 15  |                                                                                                                                   |             |
 | 16  |                                                                                                                                   |             |
 | 17  |                                                                                                                                   |             |
