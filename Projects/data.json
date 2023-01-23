@@ -3,49 +3,49 @@
     {
       "title": "Expanding Cards",
       "images": "./images/day1.png",
-      "demo_link": "#",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/01-Expanding-Cards",
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/01-Expanding-Cards"
     },
     {
       "title": "Progress Steps",
       "images": "./images/day2.png",
-      "demo_link": "#",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/02-Progress-Steps",
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/02-Progress-Steps"
     },
     {
       "title": "Rotating Navigation",
       "images": "./images/day3.png",
-      "demo_link": "#",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/03-Rotating-Navigation",
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/03-Rotating-Navigation"
     },
     {
       "title": "Hidden Search Widget",
       "images": "./images/day4.png",
-      "demo_link": "#",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/04-Hidden-Search-Widget",
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/04-Hidden-Search-Widget"
     },
     {
       "title": "Blurry Loading",
       "images": "./images/day5.png",
-      "demo_link": "#",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/05-Blurry-Loading",
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/05-Blurry-Loading"
     },
     {
       "title": "Scroll Animation",
       "images": "./images/day6.png",
-      "demo_link": "#",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/06-Scroll-Animation",
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/06-Scroll-Animation"
     },
     {
       "title": "Split Landing Page",
       "images": "./images/day7.png",
-      "demo_link": "#",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/07-Split-Landing-Page",
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/07-Split-Landing-Page"
     },
     {
       "title": "Form Wave Animation",
       "images": "./images/day8.png",
-      "demo_link": "#",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/08-Form-Wave-Animation",
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/08-Form-Wave-Animation"
     },
 
@@ -53,36 +53,36 @@
       "title": "Launchpad",
       "images": "./images/0.png",
       "demo_link": "#",
-      "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/08-Form-Wave-Animation"
+      "github_link": "#"
     },
     {
       "title": "Dad Jokes",
       "images": "./images/day10.png",
-      "demo_link": "#",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/10-Dad-Jokes",
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/10-Dad-Jokes"
     },
     {
       "title": "Event KeyCodes",
       "images": "./images/day11.png",
-      "demo_link": "#",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/11-Event-KeyCodes",
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/11-Event-KeyCodes"
     },
     {
       "title": "Faq Collapse",
       "images": "./images/day12.png",
-      "demo_link": "#",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/12-Faq-Collapse",
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/12-Faq-Collapse"
     },
     {
       "title": "Random Choice Picker",
       "images": "./images/day13.png",
-      "demo_link": "#",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/13-Random-Choice-Picker",
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/13-Random-Choice-Picker"
     },
     {
       "title": "Animated Navigation",
       "images": "./images/day14.png",
-      "demo_link": "#",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/14-Animated-Navigation",
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/14-Animated-Navigation"
     }
   ]
