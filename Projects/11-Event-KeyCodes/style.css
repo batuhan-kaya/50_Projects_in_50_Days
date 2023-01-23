@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: #e1e1e1;
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
   font-family: "Muli", sans-serif;
   display: flex;
   justify-content: center;
@@ -17,7 +18,7 @@ body {
 }
 
 .key {
-  border: 1px solid #999;
+  border: 1px solid rgb(209, 209, 209);
   background-color: #eee;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   display: inline-flex;
