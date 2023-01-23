@@ -38,7 +38,7 @@ fetch("data.json")
       btnAll.className = "btnAll";
       demo_button.className = "btn";
       github_button.className = "btn";
-      demo_link.href = "#";
+      demo_link.href = project.demo_link;
       demo_link.setAttribute("target", "_blank");
       github_link.href = project.github_link;
       github_link.setAttribute("target", "_blank");
