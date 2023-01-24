@@ -25,8 +25,8 @@ fetch("data.json")
       let img = document.createElement("img");
       let title = document.createElement("h3");
       let btnAll = document.createElement("div");
-      let demo_button = document.createElement("div");
-      let github_button = document.createElement("div");
+      let demo_button = document.createElement("button");
+      let github_button = document.createElement("button");
       let demo_link = document.createElement("a");
       let github_link = document.createElement("a");
       let days = document.createElement("p");
@@ -55,18 +55,25 @@ fetch("data.json")
       github_button.appendChild(github_link);
       content.appendChild(days);
     });
+    disableButton();
   });
+
+// Button Disable
+function disableButton() {
+  let url = "https://live-50-projects-in-50-days.vercel.app/#";
+  const disableBtnAll = document.querySelectorAll(".btn");
+  disableBtnAll.forEach((disableBtn) => {
+    if (url == disableBtn.firstElementChild.href) {
+      disableBtn.firstElementChild.remove();
+      disableBtn.classList.add("disableButton");
+      disableBtn.innerHTML = `<i class="fa-solid fa-screwdriver-wrench"></i>`;
+    }
+  });
+}
 
 // Scroll effect
 ScrollReveal({ reset: false });
 ScrollReveal().reveal(".content");
-
-// Loader
-window.addEventListener("load", fg_load);
-
-function fg_load() {
-  document.getElementById("loading").style.display = "none";
-}
 
 // UpButton
 let mybutton = document.querySelector(".upBtn");
