@@ -1,26 +1,28 @@
 # 50 Projects in 50 Days
 
-It was implemented by following a tutorial, and used for learning purposes.
+It was implemented by following a [tutorial](https://www.udemy.com/course/50-projects-50-days/), and used for learning purposes.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-|  #  | Project                                                                                                                           | Live Demo   |
+## [Live Projects](https://live-50-projects-in-50-days.vercel.app/)
+
+|  #  | Project                                                                                                                           | Status      |
 | :-: | --------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| 01  | [Expanding Cards](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/01-Expanding-Cards)                   | Coming Soon |
-| 03  | [Rotating Navigation Animation](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/03-Rotating-Navigation) | Coming Soon |
-| 02  | [Progress Steps](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/02-Progress-Steps)                     | Coming Soon |
-| 04  | [Hidden Search Widget](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/04-Hidden-Search-Widget)         | Coming Soon |
-| 05  | [Blurry Loading](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/05-Blurry-Loading)                     | Coming Soon |
-| 06  | [Scroll Animation](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/06-Scroll-Animation)                 | Coming Soon |
-| 07  | [Split Landing Page](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/07-Split-Landing-Page)             | Coming Soon |
-| 08  | [Form Wave Animation](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/08-Form-Wave-Animation)           | Coming Soon |
+| 01  | [Expanding Cards](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/01-Expanding-Cards)                   | Complated   |
+| 03  | [Rotating Navigation Animation](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/03-Rotating-Navigation) | Complated   |
+| 02  | [Progress Steps](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/02-Progress-Steps)                     | Complated   |
+| 04  | [Hidden Search Widget](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/04-Hidden-Search-Widget)         | Complated   |
+| 05  | [Blurry Loading](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/05-Blurry-Loading)                     | Complated   |
+| 06  | [Scroll Animation](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/06-Scroll-Animation)                 | Complated   |
+| 07  | [Split Landing Page](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/07-Split-Landing-Page)             | Complated   |
+| 08  | [Form Wave Animation](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/08-Form-Wave-Animation)           | Complated   |
 | 09  | --------------                                                                                                                    | Coming Soon |
-| 10  | [Dad Jokes](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/10-Dad-Jokes)                               | Coming Soon |
-| 11  | [Event KeyCodes](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/11-Event-KeyCodes)                     | Coming Soon |
-| 12  | [Faq-Collapse](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/12-Faq-Collapse)                         | Coming Soon |
-| 13  | [Random Choice Picker](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/13-Random-Choice-Picker)         | Coming Soon |
-| 14  | [Animated Navigation](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/14-Animated-Navigation)           | Coming Soon |
-| 15  |                                                                                                                                   |             |
+| 10  | [Dad Jokes](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/10-Dad-Jokes)                               | Complated   |
+| 11  | [Event KeyCodes](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/11-Event-KeyCodes)                     | Complated   |
+| 12  | [Faq-Collapse](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/12-Faq-Collapse)                         | Complated   |
+| 13  | [Random Choice Picker](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/13-Random-Choice-Picker)         | Complated   |
+| 14  | [Animated Navigation](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/14-Animated-Navigation)           | Complated   |
+| 15  | [Incrementing Counter](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/15-Incrementing-Counter)         | Complated   |
 | 16  |                                                                                                                                   |             |
 | 17  |                                                                                                                                   |             |
 | 18  |                                                                                                                                   |             |
