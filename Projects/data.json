@@ -90,6 +90,12 @@
       "images": "./images/day15.png",
       "demo_link": "https://live-50-projects-in-50-days.vercel.app/15-Incrementing-Counter",
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/15-Incrementing-Counter"
+    },
+    {
+      "title": "Drink Water",
+      "images": "./images/day16.png",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/16-Drink-Water",
+      "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/16-Drink-Water"
     }
   ]
 }
