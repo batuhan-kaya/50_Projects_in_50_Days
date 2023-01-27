@@ -31,7 +31,7 @@ It was implemented by following a [tutorial](https://www.udemy.com/course/50-pro
 | 21  |                                                                                                                                   |             |
 | 22  |                                                                                                                                   |             |
 | 23  |                                                                                                                                   |             |
-| 24  |                                                                                                                                   |             |
+| 24  | [Kinetic CSS Loader](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/24-Kinetic-CSS-Loader)             | Complated   |
 | 25  |                                                                                                                                   |             |
 | 26  |                                                                                                                                   |             |
 | 27  |                                                                                                                                   |             |
