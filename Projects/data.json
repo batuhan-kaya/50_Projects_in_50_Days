@@ -104,6 +104,12 @@
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/17-Movie-App"
     },
     {
+      "title": "Background Slider",
+      "images": "./images/day18.png",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/18-Background-Slider",
+      "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/18-Background-Slider"
+    },
+    {
       "title": "Kinetic CSS Loader",
       "images": "./images/day24.png",
       "demo_link": "https://live-50-projects-in-50-days.vercel.app/24-Kinetic-CSS-Loader",
