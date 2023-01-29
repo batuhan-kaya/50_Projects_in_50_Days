@@ -23,8 +23,8 @@ It was implemented by following a [tutorial](https://www.udemy.com/course/50-pro
 | 13  | [Random Choice Picker](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/13-Random-Choice-Picker)         | Complated   |
 | 14  | [Animated Navigation](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/14-Animated-Navigation)           | Complated   |
 | 15  | [Incrementing Counter](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/15-Incrementing-Counter)         | Complated   |
-| 16  |                                                                                                                                   |             |
-| 17  |                                                                                                                                   |             |
+| 16  | [Drink Water](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/16-Drink-Water)                           | Complated   |
+| 17  | [Movie App](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/17-Movie-App)                               | Complated   |
 | 18  |                                                                                                                                   |             |
 | 19  |                                                                                                                                   |             |
 | 20  |                                                                                                                                   |             |

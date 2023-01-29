@@ -98,6 +98,12 @@
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/16-Drink-Water"
     },
     {
+      "title": "Movie App",
+      "images": "./images/day17.png",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/17-Movie-App",
+      "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/17-Movie-App"
+    },
+    {
       "title": "Kinetic CSS Loader",
       "images": "./images/day24.png",
       "demo_link": "https://live-50-projects-in-50-days.vercel.app/24-Kinetic-CSS-Loader",
