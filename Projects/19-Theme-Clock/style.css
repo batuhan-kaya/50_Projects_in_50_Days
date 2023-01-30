@@ -1,8 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Heebo:300&display=swap");
-
-* {
-  box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css?family=Heebo:300&display:swap");
 
 :root {
   --primary-color: #000;
@@ -10,7 +6,7 @@
 }
 
 html {
-  transition: all 0.5s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 html.dark {
@@ -23,11 +19,15 @@ html.dark {
   color: var(--primary-color);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Heebo", sans-serif;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
@@ -45,7 +45,7 @@ body {
 }
 
 .toggle:focus {
-  outline: none;
+  outline: 0;
 }
 
 .clock-container {
@@ -128,8 +128,8 @@ body {
   height: 18px;
   width: 18px;
   display: inline-flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   line-height: 18px;
   transition: all 0.5s ease-in;
   font-size: 12px;

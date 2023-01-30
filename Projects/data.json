@@ -110,6 +110,12 @@
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/18-Background-Slider"
     },
     {
+      "title": "Theme Clock",
+      "images": "./images/day19.png",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/19-Theme-Clock",
+      "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/19-Theme-Clock"
+    },
+    {
       "title": "Kinetic CSS Loader",
       "images": "./images/day24.png",
       "demo_link": "https://live-50-projects-in-50-days.vercel.app/24-Kinetic-CSS-Loader",

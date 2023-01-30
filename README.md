@@ -26,7 +26,7 @@ It was implemented by following a [tutorial](https://www.udemy.com/course/50-pro
 | 16  | [Drink Water](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/16-Drink-Water)                           | Complated   |
 | 17  | [Movie App](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/17-Movie-App)                               | Complated   |
 | 18  | [Background Slider](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/18-Background-Slider)               | Complated   |
-| 19  |                                                                                                                                   |             |
+| 19  | [Theme Clock](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/19-Theme-Clock)                           | Complated   |
 | 20  |                                                                                                                                   |             |
 | 21  |                                                                                                                                   |             |
 | 22  |                                                                                                                                   |             |
