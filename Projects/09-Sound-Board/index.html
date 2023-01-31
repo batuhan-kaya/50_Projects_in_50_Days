@@ -4,10 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sound Board</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="../09-Sound-Board/images/icon-date-9.svg" type="image/gif" sizes="16x16" />
+    <title>Sound Pad</title>
+    <link rel="stylesheet" href="../09-Sound-Board/style.css" />
   </head>
   <body>
-    <script src="./script.js"></script>
+    <div class="container" tabindex="0">
+      <div class="container-context">
+        <h1>SOUND PAD</h1>
+        <div class="volume-bar">
+          <p>Volume <span class="rangeValue">0</span></p>
+          <input type="range" id="volume" class="slider" min="0" max="100" value="100" />
+        </div>
+      </div>
+      <div id="buttons" class="buttons"></div>
+    </div>
+
+    <script src="../09-Sound-Board/script.js"></script>
   </body>
 </html>

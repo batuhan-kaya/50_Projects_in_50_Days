@@ -50,10 +50,10 @@
     },
 
     {
-      "title": "Launchpad",
-      "images": "./images/0.png",
-      "demo_link": "#",
-      "github_link": "#"
+      "title": "Sound Board",
+      "images": "./images/9.png",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/09-Sound-Board",
+      "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/09-Sound-Board"
     },
     {
       "title": "Dad Jokes",
