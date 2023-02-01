@@ -55,7 +55,7 @@ function audioElement(src) {
   }
 
   let element = document.createElement("audio");
-  element.src = `./sounds/${src}.mp3`;
+  element.src = `../09-Sound-Board/sounds/${src}.mp3`;
   element.id = "audio";
   element.volume = volume.value / 100;
   document.body.appendChild(element);
