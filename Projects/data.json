@@ -121,6 +121,12 @@
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/20-Button-Ripple-Effect"
     },
     {
+      "title": "Drag N Drop",
+      "images": "./images/day21.png",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/21-Drag-N-Drop",
+      "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/21-Drag-N-Drop"
+    },
+    {
       "title": "Kinetic CSS Loader",
       "images": "./images/day24.png",
       "demo_link": "https://live-50-projects-in-50-days.vercel.app/24-Kinetic-CSS-Loader",

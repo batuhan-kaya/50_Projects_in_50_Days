@@ -28,7 +28,7 @@ It was implemented by following a [tutorial](https://www.udemy.com/course/50-pro
 | 18  | [Background Slider](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/18-Background-Slider)               | Complated |
 | 19  | [Theme Clock](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/19-Theme-Clock)                           | Complated |
 | 20  | [Button Ripple Effect](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/20-Button-Ripple-Effect)         | Complated |
-| 21  |                                                                                                                                   |           |
+| 21  | [Drag N Drop](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/21-Drag-N-Drop)                           | Complated |
 | 22  |                                                                                                                                   |           |
 | 23  |                                                                                                                                   |           |
 | 24  | [Kinetic CSS Loader](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/24-Kinetic-CSS-Loader)             | Complated |
