@@ -137,6 +137,18 @@
       "images": "./images/day23.png",
       "demo_link": "https://live-50-projects-in-50-days.vercel.app/23-Kinetic-CSS-Loader",
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/23-Kinetic-CSS-Loader"
+    },
+    {
+      "title": "Content Placeholder",
+      "images": "./images/day24.png",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/24-Content-Placeholder",
+      "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/24-Content-Placeholder"
+    },
+    {
+      "title": "Sticky Navbar",
+      "images": "./images/0.png",
+      "demo_link": "#",
+      "github_link": "#"
     }
   ]
 }
