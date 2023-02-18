@@ -32,7 +32,7 @@ It was implemented by following a [tutorial](https://www.udemy.com/course/50-pro
 | 22  | [Drawing App](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/22-Drawing-App)                           | Complated |
 | 23  | [Kinetic CSS Loader](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/23-Kinetic-CSS-Loader)             | Complated |
 | 24  | [Content PlaceHolder](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/24-Content-Placeholder)           | Complated |
-| 25  |                                                                                                                                   |           |
+| 25  | [Sticky Navbar](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/25-Sticky-Navbar)                       | Complated |
 | 26  |                                                                                                                                   |           |
 | 27  |                                                                                                                                   |           |
 | 28  |                                                                                                                                   |           |
