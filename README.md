@@ -33,7 +33,7 @@ It was implemented by following a [tutorial](https://www.udemy.com/course/50-pro
 | 23  | [Kinetic CSS Loader](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/23-Kinetic-CSS-Loader)             | Complated |
 | 24  | [Content PlaceHolder](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/24-Content-Placeholder)           | Complated |
 | 25  | [Sticky Navbar](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/25-Sticky-Navbar)                       | Complated |
-| 26  |                                                                                                                                   |           |
+| 26  | [Double Vertical Slider](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/26-Double-Vertical-slider)     | Complated |
 | 27  |                                                                                                                                   |           |
 | 28  |                                                                                                                                   |           |
 | 29  |                                                                                                                                   |           |
