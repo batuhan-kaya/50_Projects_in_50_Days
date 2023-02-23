@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rebeccapurple;
+  background-color: rgb(52, 145, 233);
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@ body {
 
 .btn {
   background-color: #fff;
-  color: rebeccapurple;
+  color: rgb(52, 145, 233);
   font-family: inherit;
   font-weight: bold;
   padding: 1rem;

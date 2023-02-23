@@ -34,8 +34,8 @@ It was implemented by following a [tutorial](https://www.udemy.com/course/50-pro
 | 24  | [Content PlaceHolder](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/24-Content-Placeholder)           | Complated |
 | 25  | [Sticky Navbar](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/25-Sticky-Navbar)                       | Complated |
 | 26  | [Double Vertical Slider](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/26-Double-Vertical-slider)     | Complated |
-| 27  |                                                                                                                                   |           |
-| 28  |                                                                                                                                   |           |
+| 27  | [Toast Notification](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/27-Toast-Notification)             | Complated |
+| 28  | [Github Profiles](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/28-Github-Profiles)                   | Complated |
 | 29  |                                                                                                                                   |           |
 | 30  |                                                                                                                                   |           |
 | 31  |                                                                                                                                   |           |
