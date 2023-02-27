@@ -167,6 +167,12 @@
       "images": "./images/day28.png",
       "demo_link": "https://live-50-projects-in-50-days.vercel.app/28-Github-Profiles",
       "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/28-Github-Profiles"
+    },
+    {
+      "title": "Auto Text Effect",
+      "images": "./images/day30.png",
+      "demo_link": "https://live-50-projects-in-50-days.vercel.app/30-Auto-Text-Effect",
+      "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/30-Auto-Text-Effect"
     }
   ]
 }

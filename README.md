@@ -37,7 +37,7 @@ It was implemented by following a [tutorial](https://www.udemy.com/course/50-pro
 | 27  | [Toast Notification](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/27-Toast-Notification)             | Complated |
 | 28  | [Github Profiles](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/28-Github-Profiles)                   | Complated |
 | 29  |                                                                                                                                   |           |
-| 30  |                                                                                                                                   |           |
+| 30  | [Auto Text Effect](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/30-Auto-Text-Effect)                 | Complated |
 | 31  |                                                                                                                                   |           |
 | 32  |                                                                                                                                   |           |
 | 33  |                                                                                                                                   |           |
