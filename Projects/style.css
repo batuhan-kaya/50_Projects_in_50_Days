@@ -55,7 +55,7 @@ body {
 
 .bg-buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 200px;
   height: 60px;
@@ -69,6 +69,7 @@ body {
   border-radius: 50%;
   border: 4px solid #cacaca;
   cursor: pointer;
+  margin: 0 10px;
 }
 
 .bg-One {
@@ -96,20 +97,6 @@ body {
     rgb(20, 20, 20) 88px
   );
   background-size: 56px 56px;
-}
-
-.bg-Three {
-  background: linear-gradient(
-    123deg,
-    #2e99b0 0%,
-    #2e99b0 40%,
-    #fcd77f calc(40% + 1px),
-    #fcd77f 60%,
-    #ff2e4c calc(60% + 1px),
-    #ff2e4c 75%,
-    #1e1548 calc(75% + 1px),
-    #1e1548 100%
-  );
 }
 
 .container {

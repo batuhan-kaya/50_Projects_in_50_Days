@@ -36,7 +36,7 @@ It was implemented by following a [tutorial](https://www.udemy.com/course/50-pro
 | 26  | [Double Vertical Slider](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/26-Double-Vertical-slider)     | Complated |
 | 27  | [Toast Notification](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/27-Toast-Notification)             | Complated |
 | 28  | [Github Profiles](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/28-Github-Profiles)                   | Complated |
-| 29  |                                                                                                                                   |           |
+| 29  | [Double Click Heart](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/29-Double-Click-Heart)             | Complated |
 | 30  | [Auto Text Effect](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/30-Auto-Text-Effect)                 | Complated |
 | 31  |                                                                                                                                   |           |
 | 32  |                                                                                                                                   |           |
