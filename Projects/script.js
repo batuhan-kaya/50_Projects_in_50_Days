@@ -96,3 +96,36 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// background change
+const bgOne = document.querySelector(".bg-One");
+const bgTwo = document.querySelector(".bg-Two");
+
+bgOne.addEventListener("click", () => {
+  const body = document.querySelector("body");
+  body.classList.remove("bg-Two");
+  body.classList.add("bg-One");
+});
+
+bgTwo.addEventListener("click", () => {
+  const body = document.querySelector("body");
+  body.classList.remove("bg-One");
+  body.classList.add("bg-Two");
+});
+
+// -----
+
+window.onload = function () {
+  let pageTitle = document.title;
+  let attentionMessage = "Come Back Please :(";
+
+  document.addEventListener("visibilitychange", function () {
+    let isPageActive = !document.hidden;
+
+    if (!isPageActive) {
+      document.title = attentionMessage;
+    } else {
+      document.title = pageTitle;
+    }
+  });
+};
