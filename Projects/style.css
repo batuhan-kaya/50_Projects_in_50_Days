@@ -35,13 +35,6 @@
 }
 
 body {
-  background-size: cover;
-  font-family: "Kanit", sans-serif;
-  display: flex;
-  justify-content: center;
-}
-
-.bg-One {
   background: linear-gradient(
     123deg,
     #2e99b0 0%,
@@ -53,6 +46,10 @@ body {
     #1e1548 calc(75% + 1px),
     #1e1548 100%
   );
+  background-size: cover;
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 .bg-Two {
@@ -132,6 +129,7 @@ body {
   width: 100%;
   height: auto;
   background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(252, 252, 252, 0.1);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 10px;

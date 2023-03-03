@@ -113,11 +113,11 @@ bgTwo.addEventListener("click", () => {
   body.classList.add("bg-Two");
 });
 
-// -----
+//tab change title
 
 window.onload = function () {
   let pageTitle = document.title;
-  let attentionMessage = "Come Back Please :(";
+  let attentionMessage = "Come Back Please ❤";
 
   document.addEventListener("visibilitychange", function () {
     let isPageActive = !document.hidden;
@@ -129,3 +129,5 @@ window.onload = function () {
     }
   });
 };
+
+// Onload
