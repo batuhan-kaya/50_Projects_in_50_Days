@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Kanit:wght@500&display=swap");
 
+:root {
+  --bg-main-color: linear-gradient(
+    123deg,
+    #2e99b0 0%,
+    #2e99b0 40%,
+    #fcd77f calc(40% + 1px),
+    #fcd77f 60%,
+    #ff2e4c calc(60% + 1px),
+    #ff2e4c 75%,
+    #1e1548 calc(75% + 1px),
+    #1e1548 100%
+  );
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 17px;
@@ -35,38 +49,67 @@
 }
 
 body {
-  background: linear-gradient(
-    123deg,
-    #2e99b0 0%,
-    #2e99b0 40%,
-    #fcd77f calc(40% + 1px),
-    #fcd77f 60%,
-    #ff2e4c calc(60% + 1px),
-    #ff2e4c 75%,
-    #1e1548 calc(75% + 1px),
-    #1e1548 100%
-  );
+  background: var(--bg-main-color);
   background-size: cover;
   font-family: "Kanit", sans-serif;
   display: flex;
   justify-content: center;
 }
 
+.bg-One {
+  background: var(--bg-main-color);
+}
+
 .bg-Two {
-  background-image: radial-gradient(circle at center center, transparent, rgb(33, 33, 33)),
-    repeating-linear-gradient(
-      135deg,
-      rgb(33, 33, 33) 0px,
-      rgb(33, 33, 33) 2px,
-      transparent 2px,
-      transparent 10px,
-      rgb(33, 33, 33) 10px,
-      rgb(33, 33, 33) 11px,
-      transparent 11px,
-      transparent 21px
+  background-image: repeating-linear-gradient(220deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px),
+    repeating-linear-gradient(189deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px),
+    repeating-linear-gradient(148deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px),
+    linear-gradient(90deg, rgb(30, 169, 65), rgb(158, 25, 173));
+}
+
+.bg-Three {
+  background-image: linear-gradient(
+      242deg,
+      transparent 0%,
+      transparent 62%,
+      rgba(93, 93, 93, 0.01) 62%,
+      rgba(93, 93, 93, 0.01) 68%,
+      transparent 68%,
+      transparent 100%
     ),
-    repeating-linear-gradient(45deg, rgb(47, 47, 47) 0px, rgb(47, 47, 47) 4px, transparent 4px, transparent 8px),
-    linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33));
+    linear-gradient(
+      314deg,
+      transparent 0%,
+      transparent 80%,
+      rgba(93, 93, 93, 0.03) 80%,
+      rgba(93, 93, 93, 0.03) 94%,
+      transparent 94%,
+      transparent 100%
+    ),
+    linear-gradient(
+      22deg,
+      transparent 0%,
+      transparent 44%,
+      rgba(93, 93, 93, 0.03) 44%,
+      rgba(93, 93, 93, 0.03) 74%,
+      transparent 74%,
+      transparent 100%
+    ),
+    radial-gradient(circle at 50% 43%, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.01) 2%, transparent 2%, transparent 100%),
+    radial-gradient(circle at 53% 88%, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.02) 2%, transparent 2%, transparent 100%),
+    radial-gradient(circle at 75% 8%, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.01) 2%, transparent 2%, transparent 100%),
+    radial-gradient(circle at 88% 38%, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.01) 2%, transparent 2%, transparent 100%),
+    radial-gradient(circle at 22% 47%, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.01) 8%, transparent 8%, transparent 100%),
+    radial-gradient(circle at 25% 63%, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.03) 8%, transparent 8%, transparent 100%),
+    radial-gradient(circle at 11% 36%, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.03) 8%, transparent 8%, transparent 100%),
+    radial-gradient(circle at 24% 20%, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.01) 8%, transparent 8%, transparent 100%),
+    radial-gradient(circle at 24% 89%, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.01) 8%, transparent 8%, transparent 100%),
+    radial-gradient(circle at 28% 97%, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.02) 5%, transparent 5%, transparent 100%),
+    radial-gradient(circle at 32% 4%, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.02) 5%, transparent 5%, transparent 100%),
+    radial-gradient(circle at 62% 28%, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.02) 5%, transparent 5%, transparent 100%),
+    radial-gradient(circle at 40% 44%, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.02) 5%, transparent 5%, transparent 100%),
+    radial-gradient(circle at 89% 51%, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.01) 5%, transparent 5%, transparent 100%),
+    linear-gradient(45deg, rgb(46, 228, 244), rgb(141, 8, 253));
 }
 
 .bg-buttons {
@@ -240,7 +283,7 @@ body {
   bottom: 70px;
   cursor: pointer;
   background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(252, 252, 252, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(252, 252, 252, 0.1);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   opacity: 0;
@@ -255,14 +298,14 @@ body {
 }
 
 .upBtn i:hover {
-  color: rgb(20, 194, 180);
+  color: rgb(255, 255, 255);
   transition: color 0.6s ease;
 }
 
 .upBtn i {
   width: 100%;
   height: 100%;
-  color: #fff;
+  color: #e6e6e6;
   font-size: 30px;
   display: flex;
   justify-content: center;

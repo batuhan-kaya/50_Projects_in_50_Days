@@ -100,17 +100,21 @@ function topFunction() {
 // background change
 const bgOne = document.querySelector(".bg-One");
 const bgTwo = document.querySelector(".bg-Two");
+const bgThree = document.querySelector(".bg-Three");
+const body = document.querySelector("body");
 
 bgOne.addEventListener("click", () => {
-  const body = document.querySelector("body");
-  body.classList.remove("bg-Two");
-  body.classList.add("bg-One");
+  body.removeAttribute("class");
 });
 
 bgTwo.addEventListener("click", () => {
-  const body = document.querySelector("body");
-  body.classList.remove("bg-One");
+  body.removeAttribute("class");
   body.classList.add("bg-Two");
+});
+
+bgThree.addEventListener("click", () => {
+  body.removeAttribute("class");
+  body.classList.add("bg-Three");
 });
 
 //tab change title
