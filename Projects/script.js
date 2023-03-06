@@ -76,46 +76,62 @@ ScrollReveal({ reset: false });
 ScrollReveal().reveal(".content");
 
 // UpButton
-let mybutton = document.querySelector(".upBtn");
 
-window.onscroll = function () {
-  scrollFunction();
+function scrollup() {
+  const scrollup = document.querySelector(".upBtn");
+  if (this.scrollY >= 560) scrollup.classList.add("show");
+  else scrollup.classList.remove("show");
+}
+window.addEventListener("scroll", scrollup);
+
+// Background Change
+
+const rainbowBtn = document.querySelector(".rainbow-theme");
+const darkBtn = document.querySelector(".dark-theme");
+const purpleBtn = document.querySelector(".purple-theme");
+
+const rainbowTheme = "rainbow-theme";
+const darkTheme = "dark-theme";
+const purpleTheme = "purple-theme";
+
+rainbowBtn.addEventListener("click", (e) => {
+  localStorage.setItem("selected-theme", rainbowTheme);
+  bgActive(e);
+});
+
+darkBtn.addEventListener("click", (e) => {
+  localStorage.setItem("selected-theme", darkTheme);
+  bgActive(e);
+});
+
+purpleBtn.addEventListener("click", (e) => {
+  localStorage.setItem("selected-theme", purpleTheme);
+  bgActive(e);
+});
+
+const selectedTheme = localStorage.getItem("selected-theme");
+
+const getCurrentTheme = () => {
+  if (!selectedTheme) {
+    document.body.classList.add(rainbowTheme);
+  } else {
+    document.body.classList.add(selectedTheme);
+  }
 };
 
-function scrollFunction() {
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-    mybutton.classList.add("show");
+function bgActive(e) {
+  if (e.target.id === "rainbow") {
+    document.body.classList.remove(purpleTheme, darkTheme);
+    document.body.classList.add(rainbowTheme);
+  } else if (e.target.id === "dark") {
+    document.body.classList.remove(rainbowTheme, purpleTheme);
+    document.body.classList.add(darkTheme);
   } else {
-    mybutton.classList.remove("show");
+    document.body.classList.remove(rainbowTheme, darkTheme);
+    document.body.classList.add(purpleTheme);
   }
 }
-
-mybutton.addEventListener("click", topFunction);
-
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
-// background change
-const bgOne = document.querySelector(".bg-One");
-const bgTwo = document.querySelector(".bg-Two");
-const bgThree = document.querySelector(".bg-Three");
-const body = document.querySelector("body");
-
-bgOne.addEventListener("click", () => {
-  body.removeAttribute("class");
-});
-
-bgTwo.addEventListener("click", () => {
-  body.removeAttribute("class");
-  body.classList.add("bg-Two");
-});
-
-bgThree.addEventListener("click", () => {
-  body.removeAttribute("class");
-  body.classList.add("bg-Three");
-});
+getCurrentTheme();
 
 //tab change title
 

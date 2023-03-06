@@ -1,19 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Kanit:wght@500&display=swap");
 
-:root {
-  --bg-main-color: linear-gradient(
-    123deg,
-    #2e99b0 0%,
-    #2e99b0 40%,
-    #fcd77f calc(40% + 1px),
-    #fcd77f 60%,
-    #ff2e4c calc(60% + 1px),
-    #ff2e4c 75%,
-    #1e1548 calc(75% + 1px),
-    #1e1548 100%
-  );
-}
-
 ::-webkit-scrollbar {
   width: 8px;
   height: 17px;
@@ -49,25 +35,36 @@
 }
 
 body {
-  background: var(--bg-main-color);
-  background-size: cover;
   font-family: "Kanit", sans-serif;
   display: flex;
   justify-content: center;
 }
 
-.bg-One {
-  background: var(--bg-main-color);
+body.rainbow-theme,
+.rainbow-theme {
+  background: linear-gradient(
+    123deg,
+    #2e99b0 0%,
+    #2e99b0 40%,
+    #fcd77f calc(40% + 1px),
+    #fcd77f 60%,
+    #ff2e4c calc(60% + 1px),
+    #ff2e4c 75%,
+    #1e1548 calc(75% + 1px),
+    #1e1548 100%
+  );
 }
 
-.bg-Two {
+body.dark-theme,
+.dark-theme {
   background-image: repeating-linear-gradient(220deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px),
     repeating-linear-gradient(189deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px),
     repeating-linear-gradient(148deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px),
     linear-gradient(90deg, rgb(30, 169, 65), rgb(158, 25, 173));
 }
 
-.bg-Three {
+body.purple-theme,
+.purple-theme {
   background-image: linear-gradient(
       242deg,
       transparent 0%,
@@ -121,7 +118,7 @@ body {
   margin: auto;
 }
 
-.bg-buttons .bg-btn {
+.bg-btn {
   width: 40px;
   height: 40px;
   background-color: rgb(255, 225, 219);
@@ -148,6 +145,17 @@ body {
   color: #fff;
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
   margin: 30px 0 10px 0;
+}
+
+.container .subtitle {
+  color: #fff;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.subtitle a {
+  color: #fcd77f;
 }
 
 .container .github-star {
@@ -282,6 +290,7 @@ body {
   right: 70px;
   bottom: 70px;
   cursor: pointer;
+  text-decoration: none;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(252, 252, 252, 0.1);
   backdrop-filter: blur(8px);
@@ -297,6 +306,10 @@ body {
   visibility: visible;
 }
 
+.fa-solid .fa-angle-up {
+  border-radius: 50%;
+}
+
 .upBtn i:hover {
   color: rgb(255, 255, 255);
   transition: color 0.6s ease;
@@ -310,15 +323,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media (max-width: 1400px) {
-  .upBtn {
-    width: 50px;
-    height: 50px;
-    right: 40px;
-    bottom: 40px;
-  }
 }
 
 @media (max-width: 467px) {
