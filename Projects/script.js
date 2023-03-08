@@ -20,7 +20,7 @@ fetch("data.json")
   .then((res) => res.json())
   .then((data) => {
     const projects = data.projects;
-    projects.map((project, index) => {
+    projects.forEach((project, index) => {
       let content = document.createElement("div");
       let img = document.createElement("img");
       let title = document.createElement("h3");
@@ -85,52 +85,24 @@ function scrollup() {
 window.addEventListener("scroll", scrollup);
 
 // Background Change
-
-const rainbowBtn = document.querySelector(".rainbow-theme");
-const darkBtn = document.querySelector(".dark-theme");
-const purpleBtn = document.querySelector(".purple-theme");
-
-const rainbowTheme = "rainbow-theme";
-const darkTheme = "dark-theme";
-const purpleTheme = "purple-theme";
-
-rainbowBtn.addEventListener("click", (e) => {
-  localStorage.setItem("selected-theme", rainbowTheme);
-  bgActive(e);
+const backgroundButtons = document.querySelectorAll(".bg-btn");
+backgroundButtons.forEach((button) => {
+  button.onclick = () => {
+    themeChange(button.dataset.name);
+    localStorage.setItem("selected-theme", button.dataset.name);
+  };
 });
 
-darkBtn.addEventListener("click", (e) => {
-  localStorage.setItem("selected-theme", darkTheme);
-  bgActive(e);
-});
+const themes = ["rainbow-theme", "dark-theme", "purple-theme"];
 
-purpleBtn.addEventListener("click", (e) => {
-  localStorage.setItem("selected-theme", purpleTheme);
-  bgActive(e);
-});
+function themeChange(theme) {
+  document.body.classList = themes.find((x) => x == theme);
+}
 
 const selectedTheme = localStorage.getItem("selected-theme");
 
-const getCurrentTheme = () => {
-  if (!selectedTheme) {
-    document.body.classList.add(rainbowTheme);
-  } else {
-    document.body.classList.add(selectedTheme);
-  }
-};
+const getCurrentTheme = () => (!selectedTheme ? document.body.classList.add("rainbow-theme") : document.body.classList.add(selectedTheme));
 
-function bgActive(e) {
-  if (e.target.id === "rainbow") {
-    document.body.classList.remove(purpleTheme, darkTheme);
-    document.body.classList.add(rainbowTheme);
-  } else if (e.target.id === "dark") {
-    document.body.classList.remove(rainbowTheme, purpleTheme);
-    document.body.classList.add(darkTheme);
-  } else {
-    document.body.classList.remove(rainbowTheme, darkTheme);
-    document.body.classList.add(purpleTheme);
-  }
-}
 getCurrentTheme();
 
 //tab change title
@@ -150,4 +122,4 @@ window.onload = function () {
   });
 };
 
-// Onload
+// onload
