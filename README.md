@@ -39,7 +39,7 @@ It was implemented by following a [tutorial](https://www.udemy.com/course/50-pro
 | 29  | [Double Click Heart](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/29-Double-Click-Heart)             | Complated |
 | 30  | [Auto Text Effect](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/30-Auto-Text-Effect)                 | Complated |
 | 31  |                                                                                                                                   |           |
-| 32  |                                                                                                                                   |           |
+| 32  | [Good Cheap Fast Checkbox](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/32-Good-Cheap-Fast-Checkbox) | Complated |
 | 33  |                                                                                                                                   |           |
 | 34  |                                                                                                                                   |           |
 | 35  |                                                                                                                                   |           |
