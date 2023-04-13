@@ -38,7 +38,7 @@ It was implemented by following a [tutorial](https://www.udemy.com/course/50-pro
 | 28  | [Github Profiles](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/28-Github-Profiles)                   | Complated |
 | 29  | [Double Click Heart](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/29-Double-Click-Heart)             | Complated |
 | 30  | [Auto Text Effect](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/30-Auto-Text-Effect)                 | Complated |
-| 31  |                                                                                                                                   |           |
+| 31  | [Password Generator](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/31-Password-Generator)             | Complated |
 | 32  | [Good Cheap Fast Checkbox](https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/32-Good-Cheap-Fast-Checkbox) | Complated |
 | 33  |                                                                                                                                   |           |
 | 34  |                                                                                                                                   |           |
