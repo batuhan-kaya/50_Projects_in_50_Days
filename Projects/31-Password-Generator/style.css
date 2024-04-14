@@ -115,7 +115,7 @@ h2 {
 }
 
 .labelStyle input:checked ~ .checkmark {
-  background-color: rgb(86, 173, 86);
+  background-color: #56ad56;
   border-radius: 25px;
   transition: 0.15s;
 }
@@ -138,4 +138,19 @@ h2 {
   border: solid white;
   border-width: 0 0.15em 0.15em 0;
   transform: rotate(45deg);
+}
+
+/* ! input number css */
+
+.inputNum {
+  width: 50px;
+  border: 2px solid #cfcdc7;
+  border-radius: 4px;
+  padding: 4px;
+  color: #31363f;
+  outline: none;
+}
+
+.inputNum:focus {
+  border: 2px solid #56ad56;
 }
