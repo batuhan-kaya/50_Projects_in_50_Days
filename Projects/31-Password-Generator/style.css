@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0ebe3;
+  color: #31363f;
+  font-family: "Muli", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0;
+}
+
+h2 {
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.container {
+  background-color: #f6f5f2;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  width: 350px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.result-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  height: 50px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+}
+
+.result-container .btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.btn {
+  border: none;
+  background-color: #dbd9d5;
+  color: #31363f;
+  font-size: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-large {
+  display: block;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #cfcdc7;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+/* Input CSS */
+
+.labelStyle input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.labelStyle {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+}
+
+.checkmark {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 1.3em;
+  width: 1.3em;
+  background-color: #ccc;
+  border-radius: 25px;
+  transition: 0.15s;
+}
+
+.labelStyle input:checked ~ .checkmark {
+  background-color: rgb(86, 173, 86);
+  border-radius: 25px;
+  transition: 0.15s;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.labelStyle input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.labelStyle .checkmark:after {
+  left: 0.45em;
+  top: 0.25em;
+  width: 0.25em;
+  height: 0.5em;
+  border: solid white;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotate(45deg);
+}
