@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   background-color: #f0ebe3;
   color: #31363f;
@@ -33,11 +34,12 @@ h2 {
 
 .result-container {
   background-color: rgba(0, 0, 0, 0.3);
+  color: #f6f5f2;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   position: relative;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
   padding: 12px 10px;
   height: 50px;
@@ -85,7 +87,7 @@ h2 {
   margin: 15px 0;
 }
 
-/* Input CSS */
+/*! Input CSS */
 
 .labelStyle input {
   position: absolute;
