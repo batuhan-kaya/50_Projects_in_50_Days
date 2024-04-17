@@ -44,13 +44,22 @@ generateEl.addEventListener("click", () => {
   const hasNumber = numbersEl.checked;
   const hasSymbol = symbolsEl.checked;
 
-  resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, lenght);
+  resultEl.innerText = generatePassword(
+    hasLower,
+    hasUpper,
+    hasNumber,
+    hasSymbol,
+    lenght
+  );
 });
 
 function generatePassword(lower, upper, number, symbol, length) {
   let generatedPassword = "";
+  let PasswordArray = [];
   const typesCount = lower + upper + number + symbol;
-  const typesArr = [{ lower }, { upper }, { number }, { symbol }].filter((item) => Object.values(item)[0]);
+  const typesArr = [{ lower }, { upper }, { number }, { symbol }].filter(
+    (item) => Object.values(item)[0]
+  );
 
   if (typesCount === 0) {
     return "";
@@ -59,11 +68,21 @@ function generatePassword(lower, upper, number, symbol, length) {
   for (let i = 0; i < length; i += typesCount) {
     typesArr.forEach((type) => {
       const funcName = Object.keys(type)[0];
-      generatedPassword += randomFunc[funcName]();
+      PasswordArray.push(randomFunc[funcName]());
     });
+    shuffle(PasswordArray);
   }
 
-  const finalPassword = generatedPassword.slice(0, length);
+  function shuffle(PasswordArray) {
+    for (let i = PasswordArray.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      [PasswordArray[i], PasswordArray[j]] = [
+        PasswordArray[j],
+        PasswordArray[i],
+      ];
+    }
+  }
+  const finalPassword = PasswordArray.join(" ").replace(/\s/g, "");
 
   return finalPassword;
 }
