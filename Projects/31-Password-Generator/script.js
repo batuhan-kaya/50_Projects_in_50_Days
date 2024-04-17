@@ -44,22 +44,21 @@ generateEl.addEventListener("click", () => {
   const hasNumber = numbersEl.checked;
   const hasSymbol = symbolsEl.checked;
 
-  resultEl.innerText = generatePassword(
-    hasLower,
-    hasUpper,
-    hasNumber,
-    hasSymbol,
-    lenght
-  );
+  if (lenght > 3 && lenght < 21) {
+    resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, lenght);
+  } else {
+    Swal.fire({
+      text: "Please enter a value between 4 and 20.",
+      icon: "info",
+      background: "#f6f5f2",
+    });
+  }
 });
 
 function generatePassword(lower, upper, number, symbol, length) {
-  let generatedPassword = "";
   let PasswordArray = [];
   const typesCount = lower + upper + number + symbol;
-  const typesArr = [{ lower }, { upper }, { number }, { symbol }].filter(
-    (item) => Object.values(item)[0]
-  );
+  const typesArr = [{ lower }, { upper }, { number }, { symbol }].filter((item) => Object.values(item)[0]);
 
   if (typesCount === 0) {
     return "";
@@ -76,10 +75,7 @@ function generatePassword(lower, upper, number, symbol, length) {
   function shuffle(PasswordArray) {
     for (let i = PasswordArray.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
-      [PasswordArray[i], PasswordArray[j]] = [
-        PasswordArray[j],
-        PasswordArray[i],
-      ];
+      [PasswordArray[i], PasswordArray[j]] = [PasswordArray[j], PasswordArray[i]];
     }
   }
   const finalPassword = PasswordArray.join(" ").replace(/\s/g, "");
