@@ -2,18 +2,21 @@ const parentSection = document.querySelector(".section");
 /*
     Schema
     <div class="content">
-      <img src="" alt="" />
-      <h3 class="title">Coming Soon</h3>
-      <div class="btnAll">
-        <div class="btn">
-          <a href="#"></a>
+          <div class="containerImg">
+            <img src="" alt="" class="upgradeIcon" />
+            <img src="" alt="" class="projectImg" />
+          </div>
+          <h3 class="title">Coming Soon</h3>
+          <div class="btnAll">
+            <div class="btn">
+              <a href="#"></a>
+            </div>
+            <div class="btn">
+              <a href="#"></a>
+            </div>
+          </div>
+          <p></p>
         </div>
-        <div class="btn">
-          <a href="#"></a>
-        </div>
-      </div>
-      <p></p>
-    </div>
 */
 
 fetch("data.json")
@@ -22,6 +25,7 @@ fetch("data.json")
     const projects = data.projects;
     projects.forEach((project, index) => {
       let content = document.createElement("div");
+      let containerImgs = document.createElement("div");
       let img = document.createElement("img");
       let title = document.createElement("h3");
       let btnAll = document.createElement("div");
@@ -33,6 +37,8 @@ fetch("data.json")
 
       content.className = "content";
       img.src = project.images;
+      img.className = "projectImg";
+      containerImgs.className = "containerImg";
       title.className = "title";
       title.textContent = project.title;
       btnAll.className = "btnAll";
@@ -47,13 +53,18 @@ fetch("data.json")
       days.textContent = `Day: ${index + 1}`;
 
       parentSection.appendChild(content);
-      content.appendChild(img);
+      content.appendChild(containerImgs);
+      containerImgs.appendChild(img);
       content.appendChild(title);
       content.appendChild(btnAll);
       btnAll.append(demo_button, github_button);
       demo_button.appendChild(demo_link);
       github_button.appendChild(github_link);
       content.appendChild(days);
+
+      if (project.upgradeIcon) {
+        containerImgs.insertAdjacentHTML("beforeend", `<img id="iconInfo" class="imgIcon" src="${project.upgradeIcon}">`);
+      }
     });
     disableButton();
   });
@@ -121,5 +132,3 @@ window.onload = function () {
     }
   });
 };
-
-// onload

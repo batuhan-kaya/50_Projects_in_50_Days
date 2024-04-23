@@ -190,13 +190,27 @@ body.purple-theme,
   margin-bottom: 20px;
 }
 
-.content img {
+.containerImg {
   width: 90%;
   height: auto;
   margin: 20px 20px 0 20px;
   background-position: center;
   background-size: contain;
   border-radius: 10px;
+  position: relative;
+}
+
+.containerImg .projectImg {
+  position: relative;
+  width: 100%;
+}
+
+.containerImg .imgIcon {
+  width: 48px;
+  height: 48px;
+  top: 6px;
+  right: 6px;
+  position: absolute;
 }
 
 .content .title {

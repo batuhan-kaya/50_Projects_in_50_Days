@@ -52,7 +52,8 @@
       "title": "Sound Board",
       "images": "./images/day9.png",
       "demo_link": "https://live-50-projects-in-50-days.vercel.app/09-Sound-Board",
-      "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/09-Sound-Board"
+      "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/09-Sound-Board",
+      "upgradeIcon": "./images/updates.png"
     },
     {
       "title": "Dad Jokes",
@@ -184,7 +185,8 @@
       "title": "Password Generator",
       "images": "./images/day31.png",
       "demo_link": "https://live-50-projects-in-50-days.vercel.app/31-Password-Generator",
-      "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/31-Passowrd-Generator"
+      "github_link": "https://github.com/batuhan-kaya/50_Projects_in_50_Days/tree/main/Projects/31-Passowrd-Generator",
+      "upgradeIcon": "./images/updates.png"
     }
   ]
 }
