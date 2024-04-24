@@ -65,6 +65,12 @@ fetch("data.json")
       if (project.upgradeIcon) {
         containerImgs.insertAdjacentHTML("beforeend", `<img id="iconInfo" class="imgIcon" src="${project.upgradeIcon}">`);
       }
+
+      // tippy.js settings
+      tippy("#iconInfo", {
+        content: "Extra developments have been made on this project",
+        arrow: true,
+      });
     });
     disableButton();
   });
